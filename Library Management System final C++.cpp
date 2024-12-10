@@ -250,7 +250,7 @@ cout << "\n\n\n********************* Final Project Fisrt Semester **************
                 // Display current user details
                 user = library.findUserByUsername(name); // Assign user here
                 if (user) {
-                    cout << "                          Current details: \n";
+                    cout << "                          Current details: ";
                     user->display();
                     cout << "                          Enter new email: ";
                     cin >> email;
